@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66B9AEF715B53E0C0003A2CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B9AEF615B53E0C0003A2CB /* UIKit.framework */; };
+		66B9AEF915B53E0C0003A2CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B9AEF815B53E0C0003A2CB /* Foundation.framework */; };
+		66B9AEFB15B53E0C0003A2CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B9AEFA15B53E0C0003A2CB /* CoreGraphics.framework */; };
+		66B9AF0115B53E0C0003A2CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66B9AEFF15B53E0C0003A2CB /* InfoPlist.strings */; };
+		66B9AF0315B53E0C0003A2CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B9AF0215B53E0C0003A2CB /* main.m */; };
+		66B9AF0715B53E0C0003A2CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B9AF0615B53E0C0003A2CB /* AppDelegate.m */; };
+		66B9AF0A15B53E0C0003A2CB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66B9AF0815B53E0C0003A2CB /* MainStoryboard.storyboard */; };
+		66B9AF0D15B53E0C0003A2CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B9AF0C15B53E0C0003A2CB /* ViewController.m */; };
+		66B9AF1515B53E0D0003A2CB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B9AF1415B53E0D0003A2CB /* SenTestingKit.framework */; };
+		66B9AF1615B53E0D0003A2CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B9AEF615B53E0C0003A2CB /* UIKit.framework */; };
+		66B9AF1715B53E0D0003A2CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B9AEF815B53E0C0003A2CB /* Foundation.framework */; };
+		66B9AF1F15B53E0D0003A2CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66B9AF1D15B53E0D0003A2CB /* InfoPlist.strings */; };
+		66B9AF2215B53E0D0003A2CB /* PetalsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B9AF2115B53E0D0003A2CB /* PetalsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66B9AF1815B53E0D0003A2CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66B9AEE915B53E0C0003A2CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66B9AEF115B53E0C0003A2CB;
+			remoteInfo = Petals;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66B9AEF215B53E0C0003A2CB /* Petals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Petals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B9AEF615B53E0C0003A2CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		66B9AEF815B53E0C0003A2CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66B9AEFA15B53E0C0003A2CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		66B9AEFE15B53E0C0003A2CB /* Petals-Info.plist */ = {isa = PBXFileReference; path = "Petals-Info.plist"; sourceTree = "<group>"; };
+		66B9AF0015B53E0C0003A2CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66B9AF0215B53E0C0003A2CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66B9AF0415B53E0C0003A2CB /* Petals-Prefix.pch */ = {isa = PBXFileReference; path = "Petals-Prefix.pch"; sourceTree = "<group>"; };
+		66B9AF0515B53E0C0003A2CB /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		66B9AF0615B53E0C0003A2CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66B9AF0915B53E0C0003A2CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		66B9AF0B15B53E0C0003A2CB /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		66B9AF0C15B53E0C0003A2CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66B9AF1315B53E0D0003A2CB /* PetalsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetalsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B9AF1415B53E0D0003A2CB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		66B9AF1C15B53E0D0003A2CB /* PetalsTests-Info.plist */ = {isa = PBXFileReference; path = "PetalsTests-Info.plist"; sourceTree = "<group>"; };
+		66B9AF1E15B53E0D0003A2CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66B9AF2015B53E0D0003A2CB /* PetalsTests.h */ = {isa = PBXFileReference; path = PetalsTests.h; sourceTree = "<group>"; };
+		66B9AF2115B53E0D0003A2CB /* PetalsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetalsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66B9AEEF15B53E0C0003A2CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B9AEF715B53E0C0003A2CB /* UIKit.framework in Frameworks */,
+				66B9AEF915B53E0C0003A2CB /* Foundation.framework in Frameworks */,
+				66B9AEFB15B53E0C0003A2CB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B9AF0F15B53E0D0003A2CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B9AF1515B53E0D0003A2CB /* SenTestingKit.framework in Frameworks */,
+				66B9AF1615B53E0D0003A2CB /* UIKit.framework in Frameworks */,
+				66B9AF1715B53E0D0003A2CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66B9AEE715B53E0C0003A2CB = {
+			isa = PBXGroup;
+			children = (
+				66B9AEFC15B53E0C0003A2CB /* Petals */,
+				66B9AF1A15B53E0D0003A2CB /* PetalsTests */,
+				66B9AEF515B53E0C0003A2CB /* Frameworks */,
+				66B9AEF315B53E0C0003A2CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66B9AEF315B53E0C0003A2CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66B9AEF215B53E0C0003A2CB /* Petals.app */,
+				66B9AF1315B53E0D0003A2CB /* PetalsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66B9AEF515B53E0C0003A2CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66B9AEF615B53E0C0003A2CB /* UIKit.framework */,
+				66B9AEF815B53E0C0003A2CB /* Foundation.framework */,
+				66B9AEFA15B53E0C0003A2CB /* CoreGraphics.framework */,
+				66B9AF1415B53E0D0003A2CB /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66B9AEFC15B53E0C0003A2CB /* Petals */ = {
+			isa = PBXGroup;
+			children = (
+				66B9AF0515B53E0C0003A2CB /* AppDelegate.h */,
+				66B9AF0615B53E0C0003A2CB /* AppDelegate.m */,
+				66B9AF0815B53E0C0003A2CB /* MainStoryboard.storyboard */,
+				66B9AF0B15B53E0C0003A2CB /* ViewController.h */,
+				66B9AF0C15B53E0C0003A2CB /* ViewController.m */,
+				66B9AEFD15B53E0C0003A2CB /* Supporting Files */,
+			);
+			path = Petals;
+			sourceTree = "<group>";
+		};
+		66B9AEFD15B53E0C0003A2CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66B9AEFE15B53E0C0003A2CB /* Petals-Info.plist */,
+				66B9AEFF15B53E0C0003A2CB /* InfoPlist.strings */,
+				66B9AF0215B53E0C0003A2CB /* main.m */,
+				66B9AF0415B53E0C0003A2CB /* Petals-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66B9AF1A15B53E0D0003A2CB /* PetalsTests */ = {
+			isa = PBXGroup;
+			children = (
+				66B9AF2015B53E0D0003A2CB /* PetalsTests.h */,
+				66B9AF2115B53E0D0003A2CB /* PetalsTests.m */,
+				66B9AF1B15B53E0D0003A2CB /* Supporting Files */,
+			);
+			path = PetalsTests;
+			sourceTree = "<group>";
+		};
+		66B9AF1B15B53E0D0003A2CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66B9AF1C15B53E0D0003A2CB /* PetalsTests-Info.plist */,
+				66B9AF1D15B53E0D0003A2CB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66B9AEF115B53E0C0003A2CB /* Petals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66B9AF2515B53E0D0003A2CB /* Build configuration list for PBXNativeTarget "Petals" */;
+			buildPhases = (
+				66B9AEEE15B53E0C0003A2CB /* Sources */,
+				66B9AEEF15B53E0C0003A2CB /* Frameworks */,
+				66B9AEF015B53E0C0003A2CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Petals;
+			productName = Petals;
+			productReference = 66B9AEF215B53E0C0003A2CB /* Petals.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66B9AF1215B53E0D0003A2CB /* PetalsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66B9AF2815B53E0D0003A2CB /* Build configuration list for PBXNativeTarget "PetalsTests" */;
+			buildPhases = (
+				66B9AF0E15B53E0D0003A2CB /* Sources */,
+				66B9AF0F15B53E0D0003A2CB /* Frameworks */,
+				66B9AF1015B53E0D0003A2CB /* Resources */,
+				66B9AF1115B53E0D0003A2CB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66B9AF1915B53E0D0003A2CB /* PBXTargetDependency */,
+			);
+			name = PetalsTests;
+			productName = PetalsTests;
+			productReference = 66B9AF1315B53E0D0003A2CB /* PetalsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66B9AEE915B53E0C0003A2CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 66B9AEEC15B53E0C0003A2CB /* Build configuration list for PBXProject "Petals" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 66B9AEE715B53E0C0003A2CB;
+			productRefGroup = 66B9AEF315B53E0C0003A2CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66B9AEF115B53E0C0003A2CB /* Petals */,
+				66B9AF1215B53E0D0003A2CB /* PetalsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66B9AEF015B53E0C0003A2CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B9AF0115B53E0C0003A2CB /* InfoPlist.strings in Resources */,
+				66B9AF0A15B53E0C0003A2CB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B9AF1015B53E0D0003A2CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B9AF1F15B53E0D0003A2CB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66B9AF1115B53E0D0003A2CB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66B9AEEE15B53E0C0003A2CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B9AF0315B53E0C0003A2CB /* main.m in Sources */,
+				66B9AF0715B53E0C0003A2CB /* AppDelegate.m in Sources */,
+				66B9AF0D15B53E0C0003A2CB /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B9AF0E15B53E0D0003A2CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B9AF2215B53E0D0003A2CB /* PetalsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66B9AF1915B53E0D0003A2CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66B9AEF115B53E0C0003A2CB /* Petals */;
+			targetProxy = 66B9AF1815B53E0D0003A2CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66B9AEFF15B53E0C0003A2CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66B9AF0015B53E0C0003A2CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66B9AF0815B53E0C0003A2CB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66B9AF0915B53E0C0003A2CB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		66B9AF1D15B53E0D0003A2CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66B9AF1E15B53E0D0003A2CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66B9AF2315B53E0D0003A2CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66B9AF2415B53E0D0003A2CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66B9AF2615B53E0D0003A2CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Petals/Petals-Prefix.pch";
+				INFOPLIST_FILE = "Petals/Petals-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66B9AF2715B53E0D0003A2CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Petals/Petals-Prefix.pch";
+				INFOPLIST_FILE = "Petals/Petals-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		66B9AF2915B53E0D0003A2CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Petals.app/Petals";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Petals/Petals-Prefix.pch";
+				INFOPLIST_FILE = "PetalsTests/PetalsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		66B9AF2A15B53E0D0003A2CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Petals.app/Petals";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Petals/Petals-Prefix.pch";
+				INFOPLIST_FILE = "PetalsTests/PetalsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66B9AEEC15B53E0C0003A2CB /* Build configuration list for PBXProject "Petals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66B9AF2315B53E0D0003A2CB /* Debug */,
+				66B9AF2415B53E0D0003A2CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66B9AF2515B53E0D0003A2CB /* Build configuration list for PBXNativeTarget "Petals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66B9AF2615B53E0D0003A2CB /* Debug */,
+				66B9AF2715B53E0D0003A2CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66B9AF2815B53E0D0003A2CB /* Build configuration list for PBXNativeTarget "PetalsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66B9AF2915B53E0D0003A2CB /* Debug */,
+				66B9AF2A15B53E0D0003A2CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66B9AEE915B53E0C0003A2CB /* Project object */;
+}
