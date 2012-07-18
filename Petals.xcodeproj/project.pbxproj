@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		667FD13F15B76C0E00003A37 /* Flower.java in Sources */ = {isa = PBXBuildFile; fileRef = 667FD13D15B76C0E00003A37 /* Flower.java */; };
-		667FD14015B76C0E00003A37 /* ImageGenerator.java in Sources */ = {isa = PBXBuildFile; fileRef = 667FD13E15B76C0E00003A37 /* ImageGenerator.java */; };
+		667FD14215B76C8A00003A37 /* Flower.java in Sources */ = {isa = PBXBuildFile; fileRef = 667FD14115B76C8A00003A37 /* Flower.java */; };
 		66B9AEF715B53E0C0003A2CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B9AEF615B53E0C0003A2CB /* UIKit.framework */; };
 		66B9AEF915B53E0C0003A2CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B9AEF815B53E0C0003A2CB /* Foundation.framework */; };
 		66B9AEFB15B53E0C0003A2CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B9AEFA15B53E0C0003A2CB /* CoreGraphics.framework */; };
@@ -35,8 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		667FD13D15B76C0E00003A37 /* Flower.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = Flower.java; path = ../../../Downloads/Flower.java; sourceTree = "<group>"; };
-		667FD13E15B76C0E00003A37 /* ImageGenerator.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = ImageGenerator.java; path = ../../../Downloads/ImageGenerator.java; sourceTree = "<group>"; };
+		667FD14115B76C8A00003A37 /* Flower.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Flower.java; sourceTree = "<group>"; };
+		667FD14315B76CD000003A37 /* ImageGenerator.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; name = ImageGenerator.java; path = ../ImageGenerator.java; sourceTree = "<group>"; };
 		66B9AEF215B53E0C0003A2CB /* Petals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Petals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66B9AEF615B53E0C0003A2CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		66B9AEF815B53E0C0003A2CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -115,8 +114,8 @@
 		66B9AEFC15B53E0C0003A2CB /* Petals */ = {
 			isa = PBXGroup;
 			children = (
-				667FD13D15B76C0E00003A37 /* Flower.java */,
-				667FD13E15B76C0E00003A37 /* ImageGenerator.java */,
+				667FD14315B76CD000003A37 /* ImageGenerator.java */,
+				667FD14115B76C8A00003A37 /* Flower.java */,
 				66B9AF0515B53E0C0003A2CB /* AppDelegate.h */,
 				66B9AF0615B53E0C0003A2CB /* AppDelegate.m */,
 				66B9AF0815B53E0C0003A2CB /* MainStoryboard.storyboard */,
@@ -266,8 +265,7 @@
 				66B9AF0315B53E0C0003A2CB /* main.m in Sources */,
 				66B9AF0715B53E0C0003A2CB /* AppDelegate.m in Sources */,
 				66B9AF0D15B53E0C0003A2CB /* ViewController.m in Sources */,
-				667FD13F15B76C0E00003A37 /* Flower.java in Sources */,
-				667FD14015B76C0E00003A37 /* ImageGenerator.java in Sources */,
+				667FD14215B76C8A00003A37 /* Flower.java in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
