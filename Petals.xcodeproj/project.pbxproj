@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		667FD13F15B76C0E00003A37 /* Flower.java in Sources */ = {isa = PBXBuildFile; fileRef = 667FD13D15B76C0E00003A37 /* Flower.java */; };
+		667FD14015B76C0E00003A37 /* ImageGenerator.java in Sources */ = {isa = PBXBuildFile; fileRef = 667FD13E15B76C0E00003A37 /* ImageGenerator.java */; };
 		66B9AEF715B53E0C0003A2CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B9AEF615B53E0C0003A2CB /* UIKit.framework */; };
 		66B9AEF915B53E0C0003A2CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B9AEF815B53E0C0003A2CB /* Foundation.framework */; };
 		66B9AEFB15B53E0C0003A2CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B9AEFA15B53E0C0003A2CB /* CoreGraphics.framework */; };
@@ -33,24 +35,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		667FD13D15B76C0E00003A37 /* Flower.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = Flower.java; path = ../../../Downloads/Flower.java; sourceTree = "<group>"; };
+		667FD13E15B76C0E00003A37 /* ImageGenerator.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = ImageGenerator.java; path = ../../../Downloads/ImageGenerator.java; sourceTree = "<group>"; };
 		66B9AEF215B53E0C0003A2CB /* Petals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Petals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66B9AEF615B53E0C0003A2CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		66B9AEF815B53E0C0003A2CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		66B9AEFA15B53E0C0003A2CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		66B9AEFE15B53E0C0003A2CB /* Petals-Info.plist */ = {isa = PBXFileReference; path = "Petals-Info.plist"; sourceTree = "<group>"; };
+		66B9AEFE15B53E0C0003A2CB /* Petals-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Petals-Info.plist"; sourceTree = "<group>"; };
 		66B9AF0015B53E0C0003A2CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		66B9AF0215B53E0C0003A2CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		66B9AF0415B53E0C0003A2CB /* Petals-Prefix.pch */ = {isa = PBXFileReference; path = "Petals-Prefix.pch"; sourceTree = "<group>"; };
-		66B9AF0515B53E0C0003A2CB /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		66B9AF0415B53E0C0003A2CB /* Petals-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Petals-Prefix.pch"; sourceTree = "<group>"; };
+		66B9AF0515B53E0C0003A2CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		66B9AF0615B53E0C0003A2CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		66B9AF0915B53E0C0003A2CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		66B9AF0B15B53E0C0003A2CB /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		66B9AF0B15B53E0C0003A2CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		66B9AF0C15B53E0C0003A2CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		66B9AF1315B53E0D0003A2CB /* PetalsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetalsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66B9AF1415B53E0D0003A2CB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		66B9AF1C15B53E0D0003A2CB /* PetalsTests-Info.plist */ = {isa = PBXFileReference; path = "PetalsTests-Info.plist"; sourceTree = "<group>"; };
+		66B9AF1C15B53E0D0003A2CB /* PetalsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PetalsTests-Info.plist"; sourceTree = "<group>"; };
 		66B9AF1E15B53E0D0003A2CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		66B9AF2015B53E0D0003A2CB /* PetalsTests.h */ = {isa = PBXFileReference; path = PetalsTests.h; sourceTree = "<group>"; };
+		66B9AF2015B53E0D0003A2CB /* PetalsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PetalsTests.h; sourceTree = "<group>"; };
 		66B9AF2115B53E0D0003A2CB /* PetalsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetalsTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +115,8 @@
 		66B9AEFC15B53E0C0003A2CB /* Petals */ = {
 			isa = PBXGroup;
 			children = (
+				667FD13D15B76C0E00003A37 /* Flower.java */,
+				667FD13E15B76C0E00003A37 /* ImageGenerator.java */,
 				66B9AF0515B53E0C0003A2CB /* AppDelegate.h */,
 				66B9AF0615B53E0C0003A2CB /* AppDelegate.m */,
 				66B9AF0815B53E0C0003A2CB /* MainStoryboard.storyboard */,
@@ -260,6 +266,8 @@
 				66B9AF0315B53E0C0003A2CB /* main.m in Sources */,
 				66B9AF0715B53E0C0003A2CB /* AppDelegate.m in Sources */,
 				66B9AF0D15B53E0C0003A2CB /* ViewController.m in Sources */,
+				667FD13F15B76C0E00003A37 /* Flower.java in Sources */,
+				667FD14015B76C0E00003A37 /* ImageGenerator.java in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +437,7 @@
 				66B9AF2715B53E0D0003A2CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66B9AF2815B53E0D0003A2CB /* Build configuration list for PBXNativeTarget "PetalsTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +446,7 @@
 				66B9AF2A15B53E0D0003A2CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
