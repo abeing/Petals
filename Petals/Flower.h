@@ -15,7 +15,7 @@
 @property (readonly) int petalCount;
 @property (readonly) double petalIncrementalAngle;
 
-+ (Flower*) flowerWithXOrigin: (double) xOrigin yOrigin: (double) yOrigin 
+- (id) initWithXOrigin: (double) xOrigin yOrigin: (double) yOrigin 
                         scale: (double) scale petalCount: (int) petalCount 
          petalIncrementalAgle: (double) petalIncrementalAngle;
 @end
